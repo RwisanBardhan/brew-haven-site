@@ -1,4 +1,64 @@
-.bg-brown { background-color: #6B4E3D; }
-.hero { background-color: #A67C52; }
-.btn-brown { background-color: #6B4E3D; color: white; }
-.btn-brown:hover { background-color: #8B5E3C; }
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #5a3825;
+  color: #fff;
+}
+
+.menu-section {
+  background-color: #f5ebe0;
+}
+
+.menu-section h2 {
+  color: #5a3825;
+}
+
+.contact-section {
+  background-color: #f9f5f1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  color: #5a3825;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a0522d;
+}
+
+footer {
+  background-color: #5a3825;
+  color: #fff;
+}
