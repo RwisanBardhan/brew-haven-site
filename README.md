@@ -75,12 +75,17 @@ Once hosted, your website will be live at:
 
 ## 📦 Project Structure
 ```
-brew-haven-site/
+brew-haven-website/
 │
-├── index.html          # Main webpage
-├── style.css           # Stylesheet
-├── images/ (optional)  # For adding café photos
-└── README.md           # Project summary and setup guide
+├── index.html
+├── style.css
+├── README.md
+└── images/
+    ├── espresso.jpg
+    ├── croissant.jpg
+    ├── mocha.jpg
+    └── cupcake.jpg
+
 ```
 
 ---
